@@ -14,8 +14,7 @@ export default function Home() {
       style={{ textAlign: 'center' }}
     >
       <Box display="flex" gap="3" justifyContent="center" className="flex-wrap">
-        <Chip text="Aiven for PostgreSQL®" />
-        <Chip text="Aiven for Caching" />
+        <Chip text="Flavorful Fusion" />
       </Box>
       <Typography.LargeHeading>
 A fusion of flavors from around the globe
@@ -23,36 +22,16 @@ A fusion of flavors from around the globe
       <Typography.Large color="grey-60">
      Embark on a culinary adventure without leaving your kitchen! Our website is your passport to a world of diverse and delicious recipes.
       </Typography.Large>
-      <Box.Flex gap="5" justifyContent="center" className="flex-wrap">
-        <Button.ExternalLink
-          href="https://app.netlify.com/start/deploy?repository=https://github.com/Aiven-Labs/nextjs-netlify"
-          target="_blank"
-        >
-          Deploy to Netlify
-        </Button.ExternalLink>
-        <Button.ExternalLink href="https://github.com/Aiven-Labs/nextjs-netlify" kind="secondary" target="_blank">
-          Star on GitHub
-        </Button.ExternalLink>
-      </Box.Flex>
-      <Box.Flex marginTop="auto" padding="5" gap="5" justifyContent="center" className="flex-wrap">
-        <Button.IconExternalLink icon={book} href="https://docs.netlify.com/" target="_blank">
-          Netlify docs
-        </Button.IconExternalLink>
-        <Button.IconExternalLink icon={book} href="https://docs.aiven.io/" target="_blank">
-          Aiven docs
-        </Button.IconExternalLink>
-        <Button.IconExternalLink icon={learning} href="https://aiven.io/community/forum/" target="_blank">
-          Aiven community forum
-        </Button.IconExternalLink>
-        <Button.IconExternalLink
-          icon={linkExternal}
-          iconPlacement="right"
-          href="https://www.kaggle.com/datasets/thedevastator/better-recipes-for-a-better-life"
-          target="_blank"
-        >
-          Data source
-        </Button.IconExternalLink>
-      </Box.Flex>
-    </Box.Flex>
+      <Carousel>
+  <CardComponent />
+  <CardLongTextComponent />
+  <CardComponent />
+  <CardWithChipsComponent />
+  <CardComponent />
+  <CardComponent />
+</Carousel>
+
+
+
   );
 }
