@@ -31,7 +31,7 @@ A fusion of flavors from around the globe
   <CardComponent />
 </Carousel>
 
-
+  </Box>
 
   );
 }
