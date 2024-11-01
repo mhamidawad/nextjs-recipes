@@ -18,11 +18,10 @@ export default function Home() {
         <Chip text="Aiven for Caching" />
       </Box>
       <Typography.LargeHeading>
-        Free Netlify quickstart recipe library app using Next.js, Prisma and Aiven
+A fusion of flavors from around the globe
       </Typography.LargeHeading>
       <Typography.Large color="grey-60">
-        A PostgreSQL® and Aiven for Caching optimized Next.js application built with Aiven, Prisma and open source data - for
-        free.
+     Embark on a culinary adventure without leaving your kitchen! Our website is your passport to a world of diverse and delicious recipes.
       </Typography.Large>
       <Box.Flex gap="5" justifyContent="center" className="flex-wrap">
         <Button.ExternalLink
