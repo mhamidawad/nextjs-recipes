@@ -30,8 +30,8 @@ A fusion of flavors from around the globe
   <CardComponent />
   <CardComponent />
 </Carousel>
+</Box.Flex>
 
-  </Box>
 
   );
 }
