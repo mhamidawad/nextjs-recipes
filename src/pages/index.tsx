@@ -1,5 +1,5 @@
-import { Box, Chip, Typography } from '@aivenio/aquarium';
-
+import { Box, Chip, Typography, Card } from '@aivenio/aquarium';
+import RecipeCard from './components/RecipeCard';
 
 export default function Home() {
   return (
@@ -23,6 +23,6 @@ A fusion of flavors from around the globe
 
 </Box.Flex>
 
-
+<Card> <RecipeCard /> </Card>
   );
 }
