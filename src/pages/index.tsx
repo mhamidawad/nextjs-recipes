@@ -1,7 +1,5 @@
-import { Box, Button, Chip, Typography, Carousel, Card } from '@aivenio/aquarium';
-import book from '@aivenio/aquarium/icons/book';
-import learning from '@aivenio/aquarium/icons/learning';
-import linkExternal from '@aivenio/aquarium/icons/linkExternal';
+import { Box, Chip, Typography } from '@aivenio/aquarium';
+
 
 export default function Home() {
   return (
