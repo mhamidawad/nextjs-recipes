@@ -1,4 +1,4 @@
-import { Box, Button, Chip, Typography } from '@aivenio/aquarium';
+import { Box, Button, Chip, Typography, Carousel, CardComponent } from '@aivenio/aquarium';
 import book from '@aivenio/aquarium/icons/book';
 import learning from '@aivenio/aquarium/icons/learning';
 import linkExternal from '@aivenio/aquarium/icons/linkExternal';
