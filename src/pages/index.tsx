@@ -1,5 +1,5 @@
 import { Box, Chip, Typography, Card } from '@aivenio/aquarium';
-import RecipeCard from './components/RecipeCard';
+import RecipeCard from './components/RecipeCard/RecipeCard';
 
 export default function Home() {
   return (
