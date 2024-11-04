@@ -1,4 +1,4 @@
-import { Box, Button, Chip, Typography, Carousel, Card } from '@aivenio/aquarium'
+import { Box, Button, Chip, Typography, Carousel, Card } from '@aivenio/aquarium';
 import book from '@aivenio/aquarium/icons/book';
 import learning from '@aivenio/aquarium/icons/learning';
 import linkExternal from '@aivenio/aquarium/icons/linkExternal';
@@ -22,14 +22,7 @@ A fusion of flavors from around the globe
       <Typography.Large color="grey-60">
      Embark on a culinary adventure without leaving your kitchen! Our website is your passport to a world of diverse and delicious recipes.
       </Typography.Large>
-      <Carousel>
-  <CardComponent />
-  <CardLongTextComponent />
-  <CardComponent />
-  <CardWithChipsComponent />
-  <CardComponent />
-  <CardComponent />
-</Carousel>
+
 </Box.Flex>
 
 
